@@ -11,5 +11,5 @@ To build this code on your machine:
 1. You should expect the CLI to print output to the terminal of the form `<number> <unit>` for example `0.5m`.
 1. To run all tests type `npm run test` into the terminal and to view test coverage type `npm test -- --coverage"`, note that you should be withing the babylon-CLI directory when you do this.
 
-Here is the CLI in action.
+Here is the CLI in action.<br/>
 ![Demo](demo.png)
