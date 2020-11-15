@@ -1,12 +1,11 @@
 const converstionTable = require("./conversionTable")
 
-const validateInput = (userInputString) => {
+const validateInput = (userInputArray) => {
     
-    if (userInputString.length === 0) {
+    if (userInputArray.length === 0) {
         throw new Error(`Invalid command: no command entered after -c. Commands should take the form: babylon -c "<number> <unit1> in <unit2>"`)   
     }
-    
-    const userInputArray = userInputString.split(" ")
+
     const number = userInputArray[0]
     const unit1 = userInputArray[1]
     const theWordIn = userInputArray [2]
