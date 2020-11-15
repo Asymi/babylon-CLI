@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "https://github.com/Asymi",
+  "license": "MIT",
   "bin": {
     "babylon": "./bin/index.js"
   },
@@ -18,5 +18,9 @@
   },
   "devDependencies": {
     "jest": "^26.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Asymi/babylon-CLI"
+  },
 }
